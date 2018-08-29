@@ -8,14 +8,12 @@ textarea{
 }
 
 .contact-me{
-    background-color: skyblue;
     border-radius: 10% 10% 10% 10%;
     margin-top: -2%;
 
 }
 
 body{
-    background: #A9A9A9;    ;
     color: #485e74;
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -105,3 +103,4 @@ padding: 1em;
         text-align: left;
     }
 }
+

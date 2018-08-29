@@ -5,6 +5,7 @@ const Routes = () => {
   return (
     <div>
       <NavLink exact to="/">Home</NavLink>
+      <NavLink to="/experience">Experience</NavLink>
       <NavLink to="/projects">Projects</NavLink>
       <NavLink to="/contact">Contact</NavLink>
     </div>

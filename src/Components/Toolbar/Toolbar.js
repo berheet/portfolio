@@ -8,20 +8,16 @@ const Toolbar = (props) => (
         <nav className='toolbar-nav'>
             <div className='toolbar-toggle'> <ToggleBTN click={props.sideBarClickHandler}/></div>
             <div className='toolbar-logo'> 
-            <ul>
-                <a href='https://www.facebook.com/virginiasboy9' target='blank'><li className="fa fa-facebook"> </li></a>
-                <a href='https://www.github.com/berheet' target='blank'><li className="fa fa-github"> </li></a>
-                <a href='https://www.linkedin.com/in/berheet/' target='blank'><li className="fa fa-linkedin"> </li></a>
-                <a href='https://www.instagram.com/eyeberhe9/' target='blank'><li className="fa fa-instagram"> </li></a>
 
-                    </ul>
+          <h3><span><i style={{color:'blue'}} class="fa fa-code" aria-hidden="true"></i></span> <a href='/home' className='eyobell'>Eyobell Berhe</a></h3>
                     </div>
             <div className='space'/>
             <div className='toolbar-items'> 
                 <ul>
-                    <li> <Link to='/'>Home</Link></li>
-                    <li> <Link to='/projects'>Projects</Link></li>
-                    <li><Link to='/contact'>Contact</Link></li>
+                    <li><strong> <Link to='/' className='eyobellz'>Home</Link></strong></li>
+                    <li><strong><Link to='/experience' className='eyobellz'>Experience</Link></strong></li>
+                    <li><strong><Link to='/projects' className='eyobellz'>Projects</Link></strong></li>
+                    <li><strong><Link to='/contact' className='eyobellz'>Contact</Link></strong></li>
                     </ul>
             </div>
             </nav>

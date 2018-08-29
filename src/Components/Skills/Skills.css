@@ -1,0 +1,36 @@
+.box {
+    background-color: white;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+  
+  .box:nth-child(even) {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+      .wrapper {
+          width: 90%;
+          margin: 0 auto;
+          display: grid;
+      grid-gap: 2%;
+          grid-template-columns: repeat(6, 15%);
+      margin-bottom: 2em;
+      }
+  
+  .with-height {
+    height: 400px;
+  }
+
+  .box img{
+    height: 10vh;
+    width: 10vw;
+    background-color: transparent;
+  }
+
+  .box:hover{
+    transform: scale(1.1);
+    background-color: blue;
+  }

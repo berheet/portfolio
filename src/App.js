@@ -8,6 +8,7 @@ import Backdrop from './Components/Backdrop/Backdrop';
 import Home from  './Components/RoutesPages/HomePage/Home';
 import Projects from './Components/RoutesPages/Projects/Projects'
 import Contact from './Components/RoutesPages/ContactUs/Contact'
+import Experience from './Components/RoutesPages/Experience/Experience'
 import Routes from './routes';
 
 class App extends Component {
@@ -38,11 +39,12 @@ class App extends Component {
    <Toolbar sideBarClickHandler={this.toolBarClickHandler}/>
    <Sidebar show={this.state.sideBarSlideOpen}/>
    {backDrop}
-   <Switch>
-   <Route path="/" component={Home} exact />
-            <Route path="/projects" component={Projects} />
-            <Route path="/contact" component={Contact} />   
-            </Switch>
+    <Switch>
+          <Route path="/" component={Home} exact />
+          <Route path="/experience" component={Experience} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/contact" component={Contact} />   
+    </Switch>
       </div>
       </BrowserRouter>
     );

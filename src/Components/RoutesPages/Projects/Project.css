@@ -11,7 +11,7 @@
 }
 .main-content {
   margin: 2em auto;
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
 }
 .card {
@@ -19,10 +19,11 @@
   border: 1px solid #e1e1e1;
   border-radius: 0.25em;
   align-items: center;
+  border-radius: 1em;
 }
 .card h1 {
   font-family: 'Bree Serif', serif;
-  color: #39abcd; 
+  color: #009999; 
   margin: 0;
   line-height: 1.25;
 }
@@ -32,13 +33,13 @@
   font-weight: bold;
   text-transform: uppercase;
   padding: 0.75em 1.5em;
-  background-color: #39abcd;
+  background-color: #009999;
   border-radius: 0.35em;
   display: block;
   width: 100%;
 }
 .material-icons {
-  color: #42b4d6; 
+  color: #009999; 
   font-size: 2.25em;
 }
 
@@ -69,7 +70,7 @@
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     
     /* Apply a 20px gutter to rows and columns */ 
-    grid-gap: 20px;
+    grid-gap: 50px;
   }
 
   .card img{
@@ -86,8 +87,9 @@
 .proj{
   width: 76%;
   margin: 0 auto;
-  background-color: skyblue;
-  border-radius: 10% 10% 10% 10%;
+  margin-top: 100px;
+  margin-bottom: 35px;
+
 }
 .unnecessary{
   height: 19vh;

@@ -1,22 +1,30 @@
 import React, {Component} from 'react';
 import './Home.css';
 import PortfolioIMG from '../../Images/_DSC1461.jpg'
+import {Grid, Cell} from 'react-mdl';
+
 
 const Home = () =>(
-        <div className='home-div animated bounceInLeft'>
-        <h1 className='welcome-statement'>Welcome to my Portfolio Site!</h1>
-                <div className='img'><img src={PortfolioIMG}/></div>
-                <p> My name is <strong>Eyobell Berhe</strong>, I am a self-motivated full stack web and mobile developer, specializing in ReactJS, React Native, Node, and API integrations. With an eye for design and the necessary skills to assist, whether your company is a startup looking to scale or an enterprise company looking to find new growth opportunities. Experience creating mobile responsive websites, and web and mobile applications, with the passion and ability to quickly grasp new concepts in an ever-evolving field.</p>
-            <div className='list-of-frameworks'>
-                <ul>
-                    <li><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png'/></li>
-                    <li><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png'/></li>
-                    <li><img src='https://safenet.gemalto.com/uploadedImages/images/Logos/postgresql-logo.png'/></li>
-                    <li><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png'/></li>
-                    <li><img src='https://vignette.wikia.nocookie.net/howtoprogram/images/a/a9/CSS3.png/revision/latest?cb=20130422012035'/></li>
-                    </ul>
-            </div>
-        </div>               
+    <div className='home-div animated fadeIn'>
+    <Grid className='landing-grid'>
+    <Cell col={12}> 
+    <img src={PortfolioIMG} className='portfolio-img' style={{marginTop:'20px', marginBottom:'20px'}}/>
+    <div className='banner-text'>
+        <h1> Full Stack Web Developer </h1>
+
+        <hr />
+
+        <p> JavaScript | HTML5 | CSS3 | React | NodeJS | Express | Redux | Restful API | PostgresSQL/MySQL/SQLite | Mobile Responsive Design | Git/Github | Pair Programming | Authentication | React Native | VueJS</p>
+        <div className="home-grid-container">
+  <div className="home-grid-item"><a href='https://www.facebook.com/virginiasboy9' target='blank'><li className="fa fa-facebook fa-3x"> </li></a></div>
+  <div className="home-grid-item"><a href='https://www.github.com/berheet' target='blank'><li className="fa fa-github fa-3x"> </li></a></div>
+  <div className="home-grid-item"><a href='https://www.linkedin.com/in/berheet/' target='blank'><li className="fa fa-linkedin fa-3x"> </li></a></div>  
+  <div className="home-grid-item"><a href='https://www.instagram.com/eyeberhe9/' target='blank'><li className="fa fa-instagram fa-3x"> </li></a></div>
+</div>
+        </div>
+    </Cell>
+        </Grid>
+    </div>
         )
 
 export default Home;
