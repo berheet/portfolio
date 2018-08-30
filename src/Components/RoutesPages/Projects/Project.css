@@ -14,6 +14,8 @@
   width: 85%;
   margin: 0 auto;
 }
+
+.proj h2{ color: white; margin-top: -5px;}
 .card {
   padding: 1.5em 1em;
   border: 1px solid #e1e1e1;

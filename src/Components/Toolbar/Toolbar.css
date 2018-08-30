@@ -62,10 +62,16 @@
 
  }
 
+ .toolbar-toggle{
+     margin-left: 1em;
+ }
+
 
  .eyobell{
      color: black;
-     text-decoration: none !important
+     text-decoration: none !important;
+     font-family: monospace;
+
  }
 
  .eyobell:hover{

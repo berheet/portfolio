@@ -1,6 +1,6 @@
 .side-bar{
     height: 100%;
-    background-color: gray;
+    background-color: #009999;
     box-shadow:2px 0px 5px black; 
     position: fixed;
     top: 0;
@@ -14,11 +14,13 @@
 .sb-img{
 height:20vh;
 width: 17vw; 
+margin-top: -25vh;
 }
 
 .side-bar.open {
     transform: translateX(0);
 }
+
 
 .side-bar ul{
     height: 100%;
@@ -33,7 +35,7 @@ width: 17vw;
 }
 
 .side-bar a {
-    color: purple;
+    color: white;
     text-decoration: none;
     font-size: 1.2rem;
 }

@@ -9,7 +9,7 @@ const Toolbar = (props) => (
             <div className='toolbar-toggle'> <ToggleBTN click={props.sideBarClickHandler}/></div>
             <div className='toolbar-logo'> 
 
-          <h3><span><i style={{color:'blue'}} class="fa fa-code" aria-hidden="true"></i></span> <a href='/home' className='eyobell'>Eyobell Berhe</a></h3>
+          <h3><span><i style={{color:'blue'}} class="fa fa-code" aria-hidden="true"></i></span> <a href='/' className='eyobell'>Eyobell Berhe</a></h3>
                     </div>
             <div className='space'/>
             <div className='toolbar-items'> 
