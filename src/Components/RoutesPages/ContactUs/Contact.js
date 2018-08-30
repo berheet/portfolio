@@ -9,7 +9,7 @@ class Contact extends Component {
 
     render(){
         return(
-            <div className='contact-main-div'>
+            <div className='contact-main-div' style={{marginTop:'85px'}}>
         <div class="form" onSubmit={this.handleSubmit}>
     <div className='form-div animated fadeIn'>
     <div className='contact-me'><h2 >Contact Me</h2></div>
