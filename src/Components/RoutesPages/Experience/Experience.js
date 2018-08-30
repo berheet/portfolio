@@ -26,18 +26,20 @@ class Experience extends React.Component{
   </div>
   <div className="grid-item"><h2>Graduate Of...</h2>
             <h6 style={{color: 'grey'}}><span><strong>DevMountain</strong></span> - Dallas, Texas</h6>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum h.</p>
+            <p>Full-Stack Web and Mobile Development, February 2018 <br/>
+  13 week, immersive, full time, web development school that provides the necessary skills to excel in
+a full stack development career</p>
 
             <h6 style={{color: 'grey'}}><span><strong>Longwood University</strong></span> - Farmville, Virginia</h6>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+            <p>Bachelors of Science Degree in Biology, December 2016</p>
 
             <hr/>
           <h2>Worked As...</h2>
           <h5 style={{color: 'grey'}}><span><strong>Full Stack Web Developer</strong></span> - Breaking Dawn Marketing and Advertising Inc.</h5>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>Used modern technologies and languages to create full-stack applications across multiple platforms <strong>|</strong> Worked with HTML5, CSS3, JSON, JavaScript, React, and ES6 for developing user interface <strong>|</strong> Experience in using GIT for pulling and committing the developed content from/to the GIT repository <strong>|</strong> Involved in writing application level code to interact with APIs, Web Services using AJAX, JSON <strong>|</strong> Used NPM and Yarn as secure dependency management <strong>|</strong> Created and executed unit tests and performed basic application testing</p>
 
-            <h5 style={{color: 'grey'}}><span><strong>Longwood University</strong></span> - Farmville, Virginia</h5>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <h5 style={{color: 'grey'}}><span><strong>IT Support: MPS Deployment Specialist I</strong></span> - World Bank</h5>
+            <p> Coordinated with unit IT and office managers to ensure a successful deployment <strong>|</strong> Provided logistical support to vendors when delivering MPS equipment in each building <strong>|</strong> Prepared deployment progress and updated reports to provide communication to leadership <strong>|</strong> Documented all support orders and time tracking via web-based ticketing systems <strong>|</strong> Provided remote and on-site support troubleshooting connectivity issues for end-users <strong>|</strong> Served as a liaison to higher tier systems administrators</p>
 
   </div> 
 </div>
