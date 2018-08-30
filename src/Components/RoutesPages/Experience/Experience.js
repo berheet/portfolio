@@ -6,7 +6,6 @@ import './Experience.css'
 
 class Experience extends React.Component{ 
     render(){
-      console.log(this.props.location.pathname)
         return(
           <div className="grid-container animated fadeIn">
   <div className="grid-item">
